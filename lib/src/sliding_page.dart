@@ -13,5 +13,5 @@ class SlidingPage extends InheritedWidget {
       old.page != page || old.notifier != notifier;
 
   static SlidingPage of(BuildContext context) =>
-      context.dependOnInheritedWidgetOfExactType(SlidingPage);
+      context.dependOnInheritedWidgetOfExactType(aspect: SlidingPage);;
 }
